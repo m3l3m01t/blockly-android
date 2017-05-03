@@ -351,7 +351,7 @@ public final class BlockDefinition {
     private List<String> parseExtensions(JSONObject json)
             throws JSONException, BlockLoadingException {
         if (!json.has("extensions")) {
-            return Collections.EMPTY_LIST;
+            return new ArrayList<String>();
         }
 
         // While we expect an array, permissively grab an Object in case it is just a string.

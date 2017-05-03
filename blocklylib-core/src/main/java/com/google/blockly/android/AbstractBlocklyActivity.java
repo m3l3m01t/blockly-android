@@ -400,7 +400,7 @@ public abstract class AbstractBlocklyActivity extends AppCompatActivity {
     @Nullable
     protected Map<String, BlockExtension> getBlockExtensions() {
         // Create a new instance so it is easy to append by subclasses.  Not called very often.
-        return new HashMap<>(BlockExtension.STANDARD_EXTENSIONS);
+        return new HashMap<String, BlockExtension>(BlockExtension.STANDARD_EXTENSIONS);
     }
 
     /**
