@@ -35,7 +35,7 @@
         <item name="android:background">@android:drawable/btn_dropdown</item>
     </style>
     <style name="DefaultSpinnerDropDownStyle">
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
         <item name="android:background">@color/blockly_spinner_dropdown_bg</item>
         <item name="android:padding">4dip</item>
     </style>
